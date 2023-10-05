@@ -41,7 +41,7 @@ class DayItem extends StatelessWidget {
       color: activeDayColor ?? Colors.white,
       fontSize: shrink ? 14 : 32,
       fontWeight: FontWeight.bold,
-      height: 0.8,
+      height: 1,
     );
 
     return GestureDetector(

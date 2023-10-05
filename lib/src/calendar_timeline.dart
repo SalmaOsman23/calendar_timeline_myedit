@@ -371,7 +371,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
   /// months in the calendar and the small version of [YearItem] for each year in between
   Widget _buildMonthList() {
     return SizedBox(
-      height: 30,
+      height: 40,
       child: ScrollablePositionedList.builder(
         initialScrollIndex: _monthSelectedIndex ?? 0,
         initialAlignment: _scrollAlignment,
@@ -430,7 +430,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
   Widget _buildDayList() {
     return SizedBox(
       key: const Key('ScrollableDayList'),
-      height: 70,
+      height: 80,
       child: ScrollablePositionedList.builder(
         itemScrollController: _controllerDay,
         initialScrollIndex: _daySelectedIndex ?? 0,
